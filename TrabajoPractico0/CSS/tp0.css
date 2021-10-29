@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Exo', sans-serif;
+}
+
+.cambio-imagen{
+    
+    width: 350px;
+    height: 350px;
+    margin: 0px 20px;
+    background-size: cover;
+    border: solid 3px rgb(13, 12, 26);
+    border-radius: 10px;
+}
+.cambio-imagen1{
+    
+    background-image: url(..../TrabajoPractico0/Aracnidos/loxo\ 2.jpg);
+   
+}
+.cambio-imagen1:hover {
+    background-image: url(..../TrabajoPractico0/Aracnidos/loxo\ 1.PNG);
+}
+
+
+header {
+    background-color: rgb(13, 12, 26);
+    background-image: url(..../TrabajoPractico0/Aracnidos/header.JPG);
+    background-size: cover;
+    border-bottom: rgb(0, 107, 0) solid 2px;
+    width: 100%;
+    height: 13em;
+    padding: 10px;
+
+    
+}
+.principal {
+        text-align: center;
+        color: rgba(68, 19, 133, 0.30);
+        
+}
+.principal:hover {
+    transform:scale(2.5,2.5);
+    transition-timing-function: ease;
+    color: rgb(22, 0, 37);
+    font-family: serif;
+    font-style: italic;
+}
+
+nav { margin-bottom: 30px;
+}
+.menu {
+    margin: 15px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: rgb(15, 54, 51);
+    color: white;
+    text-decoration-line: none;
+    
+
+}
+
+footer {
+width: 100%;
+height: 50px;
+background-color:  rgb(13, 12, 26);
+color: rgb(103, 129, 129);
+text-align: center;
+padding: 10px;
+
+}
+h2, h3 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color:rgb(22, 15, 27);
+    font-weight: bolder;
+    text-align: center;
+    text-decoration-line: underline;
+}
+.paginicio {
+    background-color: rgb(255, 226, 173);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: 
+                        "intro intro intro intro opil"
+                        "nv nv nv nv opil"
+                        "comun comun comun comun opil";
+    grid-gap: 30px;
+   
+    
+    text-align: justify;
+    font-family: 'Exo', sans-serif;
+    font-size: 18px;
+    padding: 2em;
+}
+.introduccion {
+    grid-area: intro;
+    
+}
+.noVenenosos {
+    grid-area: nv;
+}
+.comunes {
+    grid-area: comun;
+    
+}
+.imag-Com {
+    height: 15em;
+    width: 15em;
+    border-radius: 10px;
+    border: solid 1px rgb(16, 0, 27);
+    margin: 10px;
+    
+}
+    
+.comunes p {
+    font-size: 1.25em;
+    text-align: left;
+    color:rgb(16, 0, 27);
+    font-weight: bolder;
+    font-style: italic;
+}
+.opiliones {
+    grid-area: opil;
+}
+aside {
+    padding:15px;
+    background-color: rgb(22, 15, 27);
+    color: blanchedalmond;
+    font-size: 16px;
+    border-radius: 10px;
+    height: auto;
+}
+#opiliones {
+    text-align: center;
+    color: blanchedalmond;
+}
+.imag{
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom:1em;
+    border-radius: 10px;
+    border: solid 1px rgb(15, 54, 51);
+}
+iframe {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+#nopeligrosos {
+    color: red;
+}
+/* Grid de Aracnidos peligrosos
+*/
+.Ponzoñosos {
+    background-color: rgb(255, 226, 173);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas: 
+                        "explica explica explica explica"
+                        "loxo loxo loxo interesantes"
+                        "lactrodectus lactrodectus lactrodectus interesantes"
+                        "phoneu phoneu phoneu interesantes"
+                        "alacranes alacranes alacranes interesantes";
+    grid-gap: 30px;
+    font-family: 'Exo', sans-serif;
+    font-size: 18px;
+    padding: 2em;
+}
+.explicacion2 {
+    text-align: justify;
+    line-height:30px;
+}
+.imag2 {
+    border-radius: 10px;
+    border: rgb(22, 0, 37) solid 1px;
+}
+.Explicacion{
+    grid-area: explica; 
+}
+.Loxoceles{
+    grid-area: loxo ;
+    display:flex;
+    align-items: center;
+    flex-direction:column;
+   
+}
+.Lactrodectus {
+    grid-area: lactrodectus;
+    display:flex;
+    align-items: center;
+    flex-direction:column;
+}
+.Phoneutria {
+    grid-area: phoneu;
+    display:flex;
+    align-items: center;
+    flex-direction:column;
+}
+.alacranes {
+    grid-area: alacranes;
+    display:flex;
+    align-items: center;
+    flex-direction:column;
+
+}
+
+
+
+.Interesantes {
+    grid-area: interesantes;
+    padding:15px;
+    background-color: rgb(22, 15, 27);
+    color: blanchedalmond;
+    font-size: 16px;
+    border-radius: 10px;
+    height: auto;
+
+}
+
+.cambio-imagen2{
+    background-image: url(..../TrabajoPractico0/Aracnidos/lactrodectus.PNG);
+    border-radius: 10px;
+}
+
+.cambio-imgen2:hover {
+    background-image: url(..../TrabajoPractico0/Aracnidos/lactrodectus\ fondo.jpg);
+    
+}
+
+@media only screen and (max-width:1025px){
+    .paginicio {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas: 
+        "intro intro intro opil"
+        "nv nv nv opil"
+        "comun comun comun opil";
+        grid-gap: 15px;
+
+    }
+    
+}
+@media only screen and (max-width:760px){
+        header {
+        background-image: none;
+        }
+        .paginicio {
+           font-size: 16px; 
+           
+        }
+        aside {
+            font-size:14px;
+        }
+        .principal {
+            color: rgb(255, 226, 173);
+        }
+        .principal:hover {
+            transform: none;
+        }
+        nav{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: baseline;
+        }
+        .Ponzoñosos {
+            background-color: rgb(255, 226, 173);
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(6, auto);
+            grid-template-areas: 
+                                "explica explica explica"
+                                "loxo loxo loxo "
+                                "lactrodectus lactrodectus lactrodectus"
+                                "phoneu phoneu phoneu "
+                                "alacranes alacranes alacranes"
+                                "interesantes  interesantes  interesantes ";
+            grid-gap: 20px;
+          
+            font-size: 16px;
+            
+        }
+
+    }
+
+@media only screen and (max-width:481px) {
+    header {
+        background-image: none;
+    }
+    .paginicio {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, auto);
+        grid-template-areas: 
+        "intro intro intro intro"
+        "nv nv nv nv"
+        "comun comun comun comun"
+        "opil opil opil opil";
+        grid-gap: 7px;
+    }
+    .principal {
+        color: rgb(255, 226, 173);
+    }
+    .principal:hover {
+        transform: none;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+    .explicacion2 {
+        text-align: justify;
+
+        line-height:20px;
+    }
+    .Ponzoñosos {
+        background-color: rgb(255, 226, 173);
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(6, auto);
+        grid-template-areas: 
+                            "explica explica explica"
+                            "loxo loxo loxo "
+                            "lactrodectus lactrodectus lactrodectus"
+                            "phoneu phoneu phoneu "
+                            "alacranes alacranes alacranes"
+                            "interesantes  interesantes  interesantes ";
+        grid-gap: 20px;
+      
+        font-size: 16px;
+        
+    }
+    .imag2 {
+        width: 100%;
+    }
+}

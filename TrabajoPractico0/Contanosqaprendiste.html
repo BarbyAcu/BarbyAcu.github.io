@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maravillosas 8 patas</title>
+
+    <link rel="shortcut icon" href="../Aracnidos/icono2.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../TrabajoPractico0/CSS/contanosqaprendiste.css">
+
+     <script src="https://kit.fontawesome.com/278b2fe9c5.js" crossorigin="anonymous"></script>
+     
+</head>
+<body>
+    <section class="conteiner pag3">
+    <header class="item cabecera">
+        <nav>
+           <a class="menu" href="../TrabajoPractico0/index.html"> Las arañas no son insectos</a> 
+           <a class="menu" href="../TrabajoPractico0/Aracnidospeligrosos.html"> Arácnidos peligrosos</a>
+           <a class="menu" href="../TrabajoPractico0/Contanosqaprendiste.html"> Contanos qué aprendiste!</a>
+        </nav>
+        <h1 class="Titulo principal"> Contanos que aprendiste! </h1>
+    </header>
+    <main class="item formulario">
+
+      <script src="../TrabajoPractico0/JS/validacion.js"></script>
+
+        <form action="Contanosqaprendiste.html" method="GET" id="formulario">
+        <div class="row g-2">
+            <h3 class="cuestionario">¡Averiguá cuanto aprendiste!</h3>
+            <div class="col-md">
+              <div class="form-floating">
+                <input type="text" class="form-control" id="nombre" >
+                <label for="nombre">Nombre</label>
+              </div>
+            </div>
+            
+            <div class="col-md">
+                <div class="form-floating">
+                  <input type="text" class="form-control" id="apellido" value="" >
+                  <label for="apellido">Apellido</label>
+                </div>
+              </div>
+              
+            
+            <div class="col-md">
+                    <div class="form-floating">
+                      <input type="email" class="form-control" id="mail" placeholder="name@example.com" value="">
+                      <label for="mail">Mail</label>
+                    </div>
+            </div>
+            
+            <p>¿Que caracteristicas le pertenecen a las arañas? </p>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="Rt1" checked>
+                <label class="form-check-label" for="Rt1">
+                  Tienen antenas
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="Rta2" >
+                <label class="form-check-label" for="Rta2">
+                  Tienen uno o mas pares de ojos
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="Rta3">
+                <label class="form-check-label" for="Rta3">
+                  Tienen cuatro pares de patas y no tienen antenas
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="Rta4" >
+                <label class="form-check-label" for="Rta4">
+                  Tienen cinco pares de patas y ojos simples
+                </label>
+            </div>
+
+
+            <p>Selecciona las respuestas correctas: </p>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="Rt1" checked>
+                <label class="form-check-label" for="Rt1">
+                  Todos los aracnidos son peligrosos.
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="Rta2" >
+                <label class="form-check-label" for="Rta2">
+                  Todas las arañas tienen veneno pero no todos los venenos son peligrosos para el humano.
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="Rta3">
+                <label class="form-check-label" for="Rta3">
+                  Existen aracnidos que no poseen veneno.
+                </label>
+            </div>
+
+            <p>¿Cuáles de los siguientes aracnidos son de peligro médico?</p>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="Rt1" checked>
+                <label class="form-check-label" for="Rt1">
+                  Opiliones, Solifugos y Pseudoescorpiones
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="Rta2" >
+                <label class="form-check-label" for="Rta2">
+                  Las especies de Loxoceles, Lactrodectus y Phoneutria Nigriventer
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="Rta3">
+                <label class="form-check-label" for="Rta3">
+                 Todos los aracnidos son de peligro médico en especial los escorpiones de la especie Bothriurus bonariensis
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="Rta4" >
+                <label class="form-check-label" for="Rta4">
+                Los escorpiones de la especie Tityus trivitatus
+                </label>
+            </div>
+            <label for="customRange2" class="form-label">¿Te gustó nuestra pagina?</label>
+            <input type="range" class="form-range" min="0" max="5" id="customRange2">
+            <div class="medidor">
+             <div> <p >No me gustó</p></div>
+             <div> <p >Me gusto </p></div>
+              <div> <p>Me encantó</p></div>
+            </div>
+            
+            <label for="exampleFormControlTextarea1" class="form-label">Dejanos tu comentario!</label>
+            <textarea class="form-control" id="cajitacomentario" rows="3" placeholder="¿Que fué lo que mas y lo que menos te gustó?"></textarea>
+            <button class="btn btn-primary" type="submit" id="enviar">Enviar</button>
+            <p class="alerta" id="alerta"></p>
+          </div>
+
+        </form>
+
+    </main>
+
+
+
+
+
+
+
+
+    <footer class="item piepag">   
+      <i class="fas fa-spider"></i>
+        <p>Seguinos en nuestras redes
+        @Derechos reservados</p> 
+
+
+    </footer>
+</section>
+</body>
+</html>

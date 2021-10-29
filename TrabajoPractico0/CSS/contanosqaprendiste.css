@@ -1,0 +1,108 @@
+
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    background-color:  rgb(13, 12, 26);
+
+}
+.pag3{
+    background-color: rgb(255, 226, 173);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: 
+                        "cabecera cabecera cabecera cabecera"
+                        "formulario formulario formulario formulario"
+                        "piepag piepag piepag piepag";
+   
+    margin-top: 15px;
+    text-align: justify;
+    font-family: 'Exo', sans-serif;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.cabecera{
+    grid-area: cabecera;
+    padding:1em;
+    background-color: rgb(13, 12, 26);
+    color: blanchedalmond;
+
+}
+.principal {
+    margin-top: 1em;
+    text-align: center;
+}
+
+
+.formulario{
+    padding: 30px;
+    grid-area: formulario;
+    background-image:url(../TrabajoPractico0/Aracnidos/fondo\ polybetes.jpg);
+    background-repeat: no-repeat;
+    
+    background-size:cover
+   
+
+}
+.piepag {
+    grid-area: piepag;
+    background-color: rgb(13, 12, 26);
+    color:blanchedalmond;
+
+}
+
+.menu {
+    margin:15px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: rgb(15, 54, 51);
+    color: white;
+    text-decoration-line: none;
+}
+.g-2 {
+    width: 65%;
+    margin: auto;
+    background-color: rgb(243, 201, 138, 0.6);
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 2em;
+
+
+}
+.cuestionario{
+    text-align: center;
+    font-weight: bold;
+}
+p, .form-label {
+    margin-top: 15px;
+    font-weight: bold;
+
+}
+.medidor {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(95, 95, 95);
+    font-weight: normal;
+}
+footer  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;  
+    padding-top: 1em; 
+}
+footer p {
+    margin-top: 0;
+    font-weight: normal;
+}
+.alerta {
+    margin: auto;
+    padding-top: 20px;
+    text-align: center;
+    color: red;
+    width: 200px;
+}
