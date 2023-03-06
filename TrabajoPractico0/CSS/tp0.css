@@ -16,17 +16,17 @@
 }
 .cambio-imagen1{
     
-    background-image: url('../TrabajoPractico0/Aracnidos/loxo\ 2.jpg');
+    background-image: url(../TrabajoPractico0/Aracnidos/loxo\ 2.jpg);
    
 }
 .cambio-imagen1:hover {
-    background-image: url('../TrabajoPractico0/Aracnidos/loxo\ 1.PNG');
+    background-image: url(../TrabajoPractico0/Aracnidos/loxo\ 1.PNG);
 }
 
 
 header {
     background-color: rgb(13, 12, 26);
-    background-image: url('../TrabajoPractico0/Aracnidos/header.JPG');
+    background-image: url(../TrabajoPractico0/Aracnidos/header.JPG);
     background-size: cover;
     border-bottom: rgb(0, 107, 0) solid 2px;
     width: 100%;
@@ -222,12 +222,12 @@ iframe {
 }
 
 .cambio-imagen2{
-    background-image: url('../TrabajoPractico0/Aracnidos/lactrodectus.PNG');
+    background-image: url(../TrabajoPractico0/Aracnidos/lactrodectus.PNG);
     border-radius: 10px;
 }
 
 .cambio-imgen2:hover {
-    background-image: url('../TrabajoPractico0/Aracnidos/lactrodectus\ fondo.jpg');
+    background-image: url(../TrabajoPractico0/Aracnidos/lactrodectus\ fondo.jpg);
     
 }
 
