@@ -40,7 +40,7 @@ body {
 .formulario{
     padding: 30px;
     grid-area: formulario;
-    background-image:url("../TrabajoPractico0/Aracnidos/fondo polybetes.jpg");
+    background-image:url("fondo polybetes.jpg");
     background-repeat: no-repeat;
     
     background-size:cover
