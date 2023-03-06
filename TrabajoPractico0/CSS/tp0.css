@@ -43,7 +43,7 @@ header {
 .principal:hover {
     transform:scale(2.5,2.5);
     transition-timing-function: ease;
-    color:(255, 229, 180);
+    color: white;
     font-family: serif;
     font-style: italic;
 }
